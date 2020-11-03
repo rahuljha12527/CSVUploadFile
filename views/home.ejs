@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>
+            <%=title% >
+        </title>
+    </head>
+
+    <body>
+        <h1>CSV Upload/ <%=title%> </h1>
+
+        <form action='/profile' method="post" enctype="multipart/form-data">
+            <input type="file" name="avatar" placeholder="csvFile" />
+
+            <input type="submit" value="Upload" />
+
+        </form>
+    </body>
+</html>
